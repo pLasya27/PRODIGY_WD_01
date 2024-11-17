@@ -1,0 +1,69 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Layout for page sections */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  section {
+    padding: 100px;
+    min-height: 100vh;
+  }
+  
+  /* Fixed navigation bar styling */
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #555;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar ul li {
+    margin: 0 20px;
+  }
+  
+  #navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  /* Hover effect */
+  #navbar ul li a:hover {
+    background-color: #555;
+    color: #ffcc00;
+    border-radius: 4px;
+  }
+  
+  /* Scroll effect styling */
+  .scrolled {
+    background-color: #222;
+  }
+  
+  .scrolled ul li a {
+    color: #ffcc00;
+  }
+  
+  /* Section styling */
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  
